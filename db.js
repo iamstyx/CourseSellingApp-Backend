@@ -1,9 +1,6 @@
 const mongoose = require("mongoose")
-const dotenv = require("dotenv");
-dotenv.config();
 
-console.log("Connected To MongoDB")
-mongoose.connect(process.env.Mongo_URL)
+
 
 
 const Schema = mongoose.Schema;
